@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script src="https://kit.fontawesome.com/1b5fe7984c.js" crossorigin="anonymous"></script>
+  <title>prothomalo</title>
+  <style>
+    * {
+      margin: 0px;
+      padding: 0px;
+    }
+
+    .hc {
+      color: #000000;
+    }
+
+    .hc:hover {
+      color: #0c54cf;
+    
+    }
+  </style>
+</head>
+
+<body>
+
+
+  <div class="container">
+    <div class="row d-flex">
+      <div class="col-sm-3 p-4 ">
+        <!-- <a href=""><i class="fa-solid fa-bars" style="color: #080808; font-size: xx-large; padding-left: 10px;"></i></a> -->
+        <!-- ------------------------------------ -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <i class="fa-solid fa-bars" style="color: #070707; font-size: xx-large; padding-left: 10px;"></i>
+        </button>
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header text-bg-light">
+            <h5 class="offcanvas-title bg-light " id="offcanvasNavbarLabel"></h5>
+            <button type="button " class="btn-close bg-night" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body  px-4">
+            <ul class="navbar-nav justify-content-end  flex-grow-1 p-0 m-0">
+              <li class="nav-item hc">
+                <a class="nav-link ColorW_fontB px-4  py-0 " aria-current="page" href="/about.html">প্রচ্ছদ</a>
+              </li>
+              <hr class="ms-3">
+              <li class="nav-item hc">
+                <a class="nav-link ColorW_fontB  px-4   py-0 " href="#">সর্বশেষ সংবাদ</a>
+              </li>
+              <hr class="ms-3">
+              <li class="nav-item hc">
+                <a class="nav-link ColorW_fontB  px-4  py-0  " href="#">বিশেষ সংবাদ</a>
+              </li>
+              <hr class="ms-3">
+              <li class="nav-item hc">
+                <a class="nav-link ColorW_fontB  px-4  py-0  " href="#">করোনাভাইরাস</a>
+              </li>
+              <hr class="ms-3">
+              <li class="nav-item hc">
+                <a class="nav-link ColorW_fontB  px-4 py-0 " href="#">রাজনীতি</a>
+              </li>
+              <hr class="ms-3">
+              <li class="nav-item hc">
+                <a class="nav-link ColorW_fontB  px-4 py-0 " href="#">বাংলাদেশ</a>
+              </li>
+              <hr class="ms-3">
+              <li class="nav-item hc">
+                <a class="nav-link ColorW_fontB  px-4 py-0 " href="#">বিশ্ব</a>
+              </li>
+              <hr class="ms-3">
+              <li class="nav-item hc">
+                <a class="nav-link ColorW_fontB  px-4 py-0 " href="#">বাণিজ্য</a>
+              </li>
+              <hr class="ms-3">
+              <li class="nav-item hc">
+                <a class="nav-link ColorW_fontB  px-4 py-0 " href="#">মতামত</a>
+              </li>
+              <hr class="ms-3">
+              <li class="nav-item hc">
+                <a class="nav-link ColorW_fontB  px-4 py-0 " href="#">খেলা</a>
+              </li>
+              <hr class="ms-3">
+              <li class="nav-item hc">
+                <a class="nav-link ColorW_fontB  px-4 py-0 " href="#">বিনোদন</a>
+              </li>
+              <hr class="ms-3">
+              <li class="nav-item hc">
+                <a class="nav-link ColorW_fontB  px-4 py-0 " href="#">জীবনযাপন</a>
+              </li>
+              <hr class="ms-3">
+              <li class="nav-item hc">
+                <a class="nav-link ColorW_fontB  px-4 py-0 " href="#">প্রযুক্তি</a>
+              </li>
+              <hr class="ms-3">
+              <li class="nav-item hc">
+                <a class="nav-link ColorW_fontB  px-4 py-0 " href="#">সুস্থতা</a>
+              </li>
+              <hr class="ms-3">
+              <li class="nav-item hc">
+                <a class="nav-link ColorW_fontB  px-4 py-0 " href="#">শিক্ষা</a>
+              </li>
+              <hr class="ms-3">
+              <li class="nav-item hc">
+                <a class="nav-link ColorW_fontB  px-4 py-0 " href="#">ধর্ম</a>
+              </li>
+              <hr class="ms-3">
+              <li class="nav-item hc">
+                <a class="nav-link ColorW_fontB  px-4 py-0 " href="#">ছবি</a>
+              </li>
+              <hr class="ms-3">
+              <li class="nav-item hc">
+                <a class="nav-link ColorW_fontB  px-4 py-0 " href="#">ভিডিও</a>
+              </li>
+              <hr class="ms-3">
+              <li class="nav-item hc">
+                <a class="nav-link ColorW_fontB  px-4 py-0 " href="#">চাকরি</a>
+              </li>
+              <hr class="ms-3">
+              <li class="nav-item hc">
+                <a class="nav-link ColorW_fontB  px-4 py-0 " href="#">একটু থামুন</a>
+              </li>
+              <hr class="ms-3">
+              <li class="nav-item hc">
+                <a class="nav-link ColorW_fontB  px-4 py-0 " href="#">অন্য আলো</a>
+              </li>
+              <hr class="ms-3">
+              <li class="nav-item hc">
+                <a class="nav-link ColorW_fontB  px-4 py-0 " href="#">ইপেপার</a>
+              </li>
+              <hr class="ms-3">
+
+              <li class="nav-item hc">
+                <p class="nav-link ColorW_fontB  px-4 py-0 " style="color: #7d7676; font-size: small;" href="#">অনুসরণ
+                  করুন</p>
+              </li>
+
+              <li class="nav-item">
+                <p class="nav-link ColorW_fontB  px-4 py-0" style="color: #7d7676; font-size: xx-large;" href="#">
+                  <a class="hc"><i class="fa-brands fa-facebook border border-rounded-pills"
+                      style="color: #0c54cf;"></i></a>
+                  <a><i class="fa-brands fa-square-twitter border border-rounded-circle"
+                      style="color: #054ac2;"></i></a>
+                  <a><i class="fa-brands fa-youtube" style="color: #af182f;"></i></a>
+                  <a><i class="fa-brands fa-square-instagram" style="color: #a93da5;"></i></a>
+                </p>
+
+              </li>
+
+
+
+
+            </ul>
+            <form class="d-flex mt-3" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-light btn-outline-primary" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+
+
+
+        <!-- ------------------------------------ -->
+        <a href=""><i class="fa-solid fa-magnifying-glass"
+            style="color: #030303; font-size: xx-large; padding-left: 25px;"></i></a>
+        <br>
+        <br>
+        <br>
+
+        <h5 class="float-start bx-5 px-2" style="color: #7e7777;"> রোববার, ১০ সেপ্টেম্বর ২০২৩</h5>
+
+
+      </div>
+
+      <div class=" col-sm-6  p-2 ">
+        <img src="Capture.JPG" alt="" class="d-block img-fluid ms-auto me-auto">
+      </div>
+
+      <div class="col-sm-3 p-4 float-end">
+
+        <button type="button" class="btn btn-outline-dark mt-4 float-end" data-bs-toggle="modal" data-bs-target="#myModal">
+          Login</button>
+
+
+
+
+        <!--  Modal -->
+
+        <div class="modal" id="myModal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+
+              <div class="modal-header">
+                <h4 class="modal-title">Login to your account</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              </div>
+
+              <div class="modal-body">
+                <div class="mb-3">
+                  <label for="email" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+              </div>
+              <div class="mb-3">
+                  <label for="pwd" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="pwd" placeholder="at least 8 characters" name="pswd">
+              </div>
+              </div>
+
+
+              <div class="modal-footer">
+                <button type="submit" class="btn btn-success" data-bs-dismiss="modal">Login</button>
+                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancel</button>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+  
+        <!-- <a href=""><i class="fa-solid fa-bell float-end" style="color: #5e4704;"></i></a> -->
+      </div>
+
+      <div class="clearfix mb-0">
+        <h5 class="float-end bx-5 px-2" style="color: #7e7777;"> Edition</h5>
+        <a href="">
+          <h5 class="float-end bx-5" style="color: #080808;">English</h5>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- navigation panel -->
+  <nav class="navbar navbar-expand-sm justify-content-center sticky-top shadow p-0 mb-0 bg-body" style="padding: 0px;">
+
+
+
+    <div class="container-fluid bg-white text-dark text-center border-top border-bottom shadow-1">
+      <span class="p-3 m-auto ">
+        <ul class="nav justify-content-center d-flex">
+          <li class="nav-item px-2 mx-2" style="text-decoration: none"><a href="" class="text-decoration-none">
+              <h5 class="text-dark link-underline link-underrline-opacity-0">সর্বশেষ</h5>
+            </a></li>
+          <li class="nav-item px-2 mx-2" style="text-decoration: none;"><a href="" class="text-decoration-none">
+              <h5 class="text-dark">বিশেষ সংবাদ</h5>
+            </a></li>
+          <li class="nav-item px-2" style="text-decoration: none;"><a href="" class="text-decoration-none">
+              <h5 class="text-dark">রাজনীতি</h5>
+            </a></li>
+          <li class="nav-item px-2" style="text-decoration: none;"><a href="" class="text-decoration-none">
+              <h5 class="text-dark">বাংলাদেশ</h5>
+            </a></li>
+          <li class="nav-item px-2" style="text-decoration: none;"><a href="" class="text-decoration-none">
+              <h5 class="text-dark">অপরাধ</h5>
+            </a></li>
+          <li class="nav-item px-2" style="text-decoration: none;"><a href="" class="text-decoration-none">
+              <h5 class="text-dark">বিশ্ব</h5>
+            </a></li>
+          <li class="nav-item px-2" style="text-decoration: none;"><a href="" class="text-decoration-none">
+              <h5 class="text-dark">বাণিজ্য</h5>
+            </a></li>
+          <li class="nav-item px-2" style="text-decoration: none;"><a href="" class="text-decoration-none">
+              <h5 class="text-dark">মতামত</h5>
+            </a></li>
+          <li class="nav-item px-2" style="text-decoration: none;"><a href="" class="text-decoration-none">
+              <h5 class="text-dark">খেলা</h5>
+            </a></li>
+          <li class="nav-item px-2" style="text-decoration: none;"><a href="" class="text-decoration-none">
+              <h5 class="text-dark">বিনোদন</h5>
+            </a></li>
+          <li class="nav-item px-2" style="text-decoration: none;"><a href="" class="text-decoration-none">
+              <h5 class="text-dark">চাকরি</h5>
+            </a></li>
+          <li class="nav-item px-2" style="text-decoration: none;"><a href="" class="text-decoration-none">
+              <h5 class="text-dark">জীবনযাপন</h5>
+            </a></li>
+        </ul>
+      </span>
+
+    </div>
+  </nav>
+  <br>
+
+  <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+    <div class="text-center">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="1500">
+          <img src="ad1.JPG" alt="" class="" style="height: 110px; width: 900px;">
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+          <img src="ad5.jpg" alt="" class="" style="height: 110px; width: 900px;">
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+          <img src="ad2.JPG" alt="" class="" style="height: 110px; width: 900px;">
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="daraz.jpg" alt="" style="height: 110px; width: 900px;">
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+          <img src="crown.jpg" alt="" style="height: 110px; width: 900px;">
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+
+  <!-- Block-1 -->
+
+  <div class="container overflow-hidden">
+    <div class="d-flex m-5">
+      <div class="col-md-3 col-12 overflow-hidden ps-0 pe-3 pb-2" style="height: 250px; ">
+        <span>
+          <h5><a href="" class="text-decoration-none  hc">রোডমার্চ শেষ হবে সেদিন, যেদিন সরকারের পতন ঘটাতে পারব:
+              রংপুরে মির্জা ফখরুল</a>
+          </h5>
+
+          মির্জা ফখরুল বলেন, ‘রংপুর থেকে আজ এই রোডমার্চ শুরু হলো। এই রোডমার্চ শেষ হবে সেদিন, যেদিন আমরা এই সরকারের
+          পতন...
+          <br><br><br><br>
+          <p style="color: #7d7676;">১ ঘণ্টা আগে </p>
+
+        </span>
+
+      </div>
+      <div class="col-md-3 col-12 overflow-hidden border-start border-end border-2 ps-3 pe-3 pb-2"
+        style="height: 250px; ">
+        <a href="" class="text-decoration-none text-dark">
+          <img src="b1.jpg" alt="" class="" style="height: 200px; width: 250px;">
+          <p style="font-size: x-small;">১৪ সেপ্টেম্বর আদালতের রায়ের পর মানবাধিকার সংস্থা অধিকারের সম্পাদক আদিলুর
+            রহমান
+            খানকে প্রিজন ভ্যানে তোলা হয়</p>
+
+          <p style="color: #7d7676;">১ ঘণ্টা আগে</p>
+        </a>
+
+        </span>
+      </div>
+
+      <div class="col-md-3 col-12 overflow-hidden row-sm-3 ps-3 pe-3" style="height: 250px; ">
+        <span>
+
+          <a href="" class="text-decoration-none text-dark">
+            <h5 class="hc">বেশির ভাগ গ্রাহকের পছন্দ ৩ দিনের ডেটা প্যাকেজ, কিন্তু সেটাই বাতিল হচ্ছে
+            </h5>
+
+            মুঠোফোন অপারেটরদের দেওয়া তথ্য বলছে, তিন দিনের মেয়াদের প্যাকেজ সবচেয়ে জনপ্রিয়। এটি...
+            <br><br><br><br><br>
+            <p style="color: #7d7676;">১ ঘণ্টা আগে</p>
+          </a>
+
+        </span>
+      </div>
+
+      <div class="col-md-3 col-12 overflow-hidden border-start border-2 ps-3 pe-3" style="height: 250px; ">
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+          <div class="text-center">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="3000">
+                <img src="ad3.jpg" alt="" class="" style="height: 250px; width: 250px;">
+              </div>
+
+              <div class="carousel-item" data-bs-interval="3000">
+                <img src="ad4.jpg" alt="" style="height: 250px; width: 250px;">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+    <hr>
+
+    <!-- Block-2 -->
+    <div class="d-flex m-5">
+      <div class="col-sm-3 col-12 overflow-hidden ps-0 pe-3" style="height: 250px; ">
+        <span>
+          <a href="" class="text-decoration-none text-dark">
+            <h5 class="hc">সহিংসতা, ভোট দিতে না পারার অক্ষমতায় রাজনীতির প্রতি
+              তরুণদের অসন্তোষ
+              বাড়ছে: পিটার হাস
+            </h5>
+
+            যে দল নাগরিকদের অগ্রাধিকারকে গুরুত্ব দিতে ব্যর্থ হয়, সে দল ভোটে হেরে যায়। ভোটে জেতা ও হারা—এ দুটো বিষয়ই
+            কার্যকর গণতন্ত্রের জন্য গুরুত্বপূর্ণ। বলেছেন ঢাকায় নিযুক্ত মার্কিন রাষ্ট্রদূত।
+          </a>
+          <br><br>
+          <p style="color: #7d7676;">১ ঘণ্টা আগে</p>
+
+        </span>
+      </div>
+
+      <div class="col-sm-3 col-12 overflow-hidden border-start border-end border-2 ps-3 pe-3" style="height: 250px; ">
+        <span>
+          <a href="" class="text-decoration-none text-dark">
+            <h5 class="hc">ডেমরায় অভিযানে গিয়ে গুলি ছুড়ল পুলিশ, গুলিবিদ্ধ যুবক
+              হাসপাতালে
+            </h5>
+
+            পুলিশ বলছে, ঘটনাস্থলে তাদের হত্যার উদ্দেশ্যে রড, দা–বঁটি নিয়ে হামলা করা হয়। পুলিশ তখন আত্মরক্ষার্থে একটি
+            গুলি
+            করে।
+          </a>
+          <br><br><br><br>
+          <p style="color: #7d7676;">১ ঘণ্টা আগে</p>
+
+        </span>
+      </div>
+
+      <div class="col-sm-3 col-12 overflow-hidden ps-3 pe-3" style="height: 250px; ">
+        <span>
+          <a href="" class="text-decoration-none text-dark">
+            <h5 class="hc">মতামত বাইডেনের সেলফি, বাংলাদেশ-যুক্তরাষ্ট্র
+              সম্পর্কের নানা হিসাব–নিকাশ
+            </h5>
+
+            বাংলাদেশ যুক্তরাষ্ট্রের গুরুত্বপূর্ণ অংশীদার হলেও সামরিক-কৌশলগত অংশীদার নয়। সামরিক কৌশলগত অবস্থান থেকে
+            বাংলাদেশ যুক্তরাষ্ট্রের
+          </a>
+          <br><br><br><br>
+          <p style="color: #7d7676;">২ ঘণ্টা আগে</p>
+
+        </span>
+      </div>
+
+      <div class="col-sm-3 col-12 overflow-hidden border-start border-2 ps-3 pe-3" style="height: 250px; ">
+        <span>
+          <a href="" class="text-decoration-none text-dark">
+            <h5 class="hc">পাকিস্তানের সাবেক রাষ্ট্র-সরকারপ্রধানদের দুর্নীতি মামলা
+              সচল হচ্ছে
+            </h5>
+
+            সুপ্রিম কোর্টের এই রায়ের সুদূরপ্রসারী প্রভাব রয়েছে। কারণ, সংশোধনীগুলো বাতিল ঘোষণা করায় দেশটির অনেক শীর্ষ
+            পর্যায়ের রাজনীতিককে...
+          </a>
+          <br><br><br><br>
+          <p style="color: #7d7676;">২ ঘণ্টা আগে</p>
+
+        </span>
+      </div>
+
+
+    </div>
+    <hr>
+
+
+    <!-- block-3 -->
+    <div class="d-flex m-sm-5">
+      <div class="col-sm-3 col-12 overflow-hidden ps-0 pe-3" style="height: 250px; ">
+        <span>
+          <a href="" class="text-decoration-none text-dark">
+
+            <h5 class="hc">ভোট দিতে না পারার অক্ষমতায় সহিংসতা, রাজনীতির প্রতি
+              তরুণদের অসন্তোষ
+              বাড়ছে
+            </h5>
+
+            নাগরিকদের যে দল অগ্রাধিকারকে গুরুত্ব দিতে ব্যর্থ হয়, সে দল ভোটে হেরে যায়। ভোটে জেতা ও হারা—এ দুটো বিষয়ই
+            কার্যকর গণতন্ত্রের জন্য গুরুত্বপূর্ণ। বলেছেন ঢাকায় নিযুক্ত মার্কিন রাষ্ট্রদূত।
+          </a>
+          <br><br>
+          <p style="color: #7d7676;">১ ঘণ্টা আগে</p>
+
+        </span>
+      </div>
+
+      <div class="col-sm-3 col-12 overflow-hidden border-start border-end border-2 ps-3 pe-3" style="height: 250px; ">
+        <span>
+          <a href="" class="text-decoration-none text-dark">
+
+            <h5 class="hc">ভুলভ্রান্তি করলে পুলিশ বা জনপ্রতিনিধি, সে যে–ই হোন
+              শাস্তি ভোগ করতেই হবে: স্বরাষ্ট্রমন্ত্রী
+            </h5>
+
+            শনিবার নারায়ণগঞ্জ নগরের চাষাঢ়ায় অবস্থিত নবনির্মিত বিকেএমইএর (বাংলাদেশ নিটওয়্যার ম্যানুফ্যাকচারার্স
+            অ্যান্ড
+            এক্সপোর্টার্স)...
+          </a>
+          <br><br><br>
+          <p style="color: #7d7676;">১ ঘণ্টা আগে</p>
+
+        </span>
+      </div>
+
+      <div class="col-sm-3 col-12 overflow-hidden ps-3 pe-3" style="height: 250px; ">
+        <span>
+          <a href="" class="text-decoration-none text-dark">
+
+            <h5 class="hc">বাংলাদেশ-যুক্তরাষ্ট্র
+              সম্পর্কের নানা হিসাব–নিকাশ, মতামত বাইডেনের সেলফি
+            </h5>
+
+            বাংলাদেশ যুক্তরাষ্ট্রের গুরুত্বপূর্ণ অংশীদার হলেও সামরিক-কৌশলগত অংশীদার নয়। সামরিক কৌশলগত অবস্থান থেকে
+            বাংলাদেশ যুক্তরাষ্ট্রের
+          </a>
+          <br><br><br><br>
+          <p style="color: #7d7676;">২ ঘণ্টা আগে</p>
+
+        </span>
+      </div>
+
+      <div class="col-sm-3 col-12 overflow-hidden border-start border-2 ps-3 pe-3" style="height: 200px; ">
+        <span>
+          <a href="" class="text-decoration-none text-dark">
+            <img src="adb3.jpg" alt="" class="" style="height: 250px; width: 300px;">
+            <h6 class="hc">বাঁধনের সাজে নজর কেড়েছে ব্লাউজ আর কানের গয়না,
+              দেখুন ভিডিওতে</h6>
+          </a>
+
+        </span>
+      </div>
+
+
+    </div>
+    <hr>
+
+
+    <!-- block-4 -->
+
+    <div class="container">
+      <span>
+        <div class="row m-sm-5">
+          <div class="col-sm-3 col-12 overflow-hidden ps-0 pe-3" style="height: 250px; ">
+            <span>
+              <a href="" class="text-decoration-none text-dark">
+
+                <h5 class="hc">শুটিং স্পটে হয়রানির শিকার, কী ঘটেছিল সেদিন? জানালেন
+                  জায়েদ খানের নায়িকা নিজেই
+                </h5>
+
+                একটি গানের দৃশ্য করার সময় নৃত্য পরিচালক মাইকেল বাবু না বলে সায়ন্তিকার হাত ধরে গানের দৃশ্য
+                বুঝিয়ে দেওয়ার কারণেই নাকি নায়িকা চটেছেন। পরবর্তী সময় গানের কাজ শেষ না করেই দেশে...
+              </a>
+              <br>
+              <p style="color: #7d7676;">১ ঘণ্টা আগে</p>
+
+            </span>
+          </div>
+
+          <div class="col-sm-3 col-12 overflow-hidden border-start border-end border-2 ps-3 pe-3"
+            style="height: 250px; ">
+            <span>
+              <a href="" class="text-decoration-none text-dark">
+
+                <h5 class="hc">বেশির ভাগ গ্রাহকের পছন্দ ৩ দিনের ডেটা প্যাকেজ,
+                  কিন্তু সেটাই বাতিল হচ্ছে
+                </h5>
+
+                মুঠোফোন অপারেটরদের দেওয়া তথ্য বলছে, তিন দিনের মেয়াদের প্যাকেজ সবচেয়ে জনপ্রিয়। এটি না থাকলে ইন্টারনেট
+                ব্যবহারকারীদের ওপর...
+              </a>
+              <br><br> <br>
+              <p style="color: #7d7676;">১ ঘণ্টা আগে</p>
+
+            </span>
+          </div>
+
+          <div class="col-sm-3 col-12 overflow-hidden ps-3 pe-3" style="height: 250px; ">
+            <span>
+              <a href="" class="text-decoration-none text-dark">
+
+                <h5 class="hc">মতামত বাইডেনের সেলফি, বাংলাদেশ-যুক্তরাষ্ট্র
+                  সম্পর্কের নানা হিসাব–নিকাশ
+                </h5>
+
+                বাংলাদেশ যুক্তরাষ্ট্রের গুরুত্বপূর্ণ অংশীদার হলেও সামরিক-কৌশলগত অংশীদার নয়। সামরিক কৌশলগত অবস্থান থেকে
+                বাংলাদেশ যুক্তরাষ্ট্রের
+              </a>
+              <br><br><br>
+              <p style="color: #7d7676;">২ ঘণ্টা আগে</p>
+
+            </span>
+          </div>
+
+          <div class="col-sm-3 col-12  border-start border-2 ps-3 pe-3" style="height: 200px; ">
+            <span>
+              <a href="" class="text-decoration-none text-dark">
+                <h5 class="hc">বাজারদর দাম কমেনি আলু পেঁয়াজ ডিমের, ক্ষুব্ধ ক্রেতা–বিক্রেতা</h5>
+                প্রান্তিক খামারিদের সংগঠন বাংলাদেশ পোলট্রি অ্যাসোসিয়েশন গতকাল এক সংবাদ বিজ্ঞপ্তিতে বলেছে, সরকারের
+                বেঁধে
+                দেওয়া ডিমের দাম শুধু...
+
+              </a>
+              <br><br>
+              <p style="color: #7d7676;">২ ঘণ্টা আগে</p>
+            </span>
+          </div>
+
+        </div>
+
+
+      </span>
+      <hr>
+    </div>
+
+    <!-- block-5 -->
+
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+      <div class="text-center">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="1500">
+            <img src="pizzAad.jpg" alt="" class="" style="height: 110px; width: 900px;">
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="daraz.jpg" alt="" class="" style="height: 110px; width: 900px;">
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="crown.jpg" alt="" class="" style="height: 110px; width: 900px;">
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="daraz.jpg" alt="" style="height: 110px; width: 900px;">
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="crown.jpg" alt="" style="height: 110px; width: 900px;">
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- block-5.1 -->
+    <!-- <div class="container">
+      <span>
+        <div class="row m-sm-5">
+
+          <div class="col-sm-3 col-12  border-start border-2 ps-3 pe-3" style="height: 200px; ">
+            <span>
+              <a href="" class="text-decoration-none text-dark">
+                <img src="b5.jpg" alt="" class="" style="height: 200px; width: 250px;">
+
+                <h5 class="hc">চাকরিপ্রার্থীর মধ্যে যে ৩ বৈশিষ্ট্য খোঁজা উচিত</h5>
+                কর্মক্ষেত্রেও এমন একটা মানসিকতা গড়ে তোলো, যেন সবাই নিজের জন্য নয়, অন্যের জন্য কাজ করে।
+              </a>
+              <br><br>
+              <p style="color: #7d7676;">৩ ঘণ্টা আগে</p>
+            </span>
+          </div>
+
+          <div class="col-sm-3 col-12  border-start border-2 ps-3 pe-3" style="height: 200px; ">
+            <span>
+              <a href="" class="text-decoration-none text-dark">
+                <img src="b51.jpg" alt="" class="" style="height: 200px; width: 250px;">
+
+                <h5 class="hc">ফুটবল শেখার জন্য লা মাসিয়া কেন এত বিখ্যাত</h5>
+                লা মাসিয়ার ‘প্রোডাক্ট’ হিসেবে পরিচিত সবচেয়ে বড় নাম লিওনেল মেসি। ১৩ বছর বয়সে তিনি বার্সা একাডেমিতে
+                যোগ
+                দেন।
+              </a>
+              <br><br>
+              <p style="color: #7d7676;">৩ ঘণ্টা আগে</p>
+            </span>
+          </div>
+
+          <div class="col-sm-3 col-12  border-start border-2 ps-3 pe-3" style="height: 200px; ">
+            <span>
+              <a href="" class="text-decoration-none text-dark">
+                <img src="b52.jpg" alt="" class="" style="height: 200px; width: 250px;">
+
+                <h5 class="hc">বাংলাদেশের ১০ শিক্ষার্থী জিতেছে ১১ পদক</h5>
+                প্রতিযোগিতার নিয়ম অনুযায়ী, অনূর্ধ্ব–১৮ বছর বয়সী শিক্ষার্থীরা এতে অংশ নিতে পারে। ভূতত্ত্ব,
+                ভূপদার্থবিদ্যা,
+                আবহাওয়াবিদ্যা, সমুদ্রবিদ্যা, স্থলজ...
+                <br><br>
+                <p style="color: #7d7676;">৩ ঘণ্টা আগে</p></span>
+          </div>
+
+          <div class="col-sm-3 col-12  border-start border-2 ps-3 pe-3" style="height: 200px; ">
+            <span>
+              <a href="" class="text-decoration-none text-dark">
+                <img src="b53.jpg" alt="" class="" style="height: 200px; width: 250px;">
+
+                <h5 class="hc">ভালো থাকুন/ শিশুর যকৃতের প্রদাহ</h5>
+                নিয়মিত পায়খানার জন্য ল্যাকটুলোজ সিরাপ ব্যবহার করা যায়। যকৃৎ রক্ত জমাট বাঁধার প্রভাবক ভিটামিন কে তৈরি
+                করতে না
+                পারলে ভিটামিন কে... <br><br>
+                <p style="color: #7d7676;">৪ ঘণ্টা আগে</p></span>
+          </div>
+        </div>
+      </span>
+    </div>
+    <hr> -->
+
+  </div>
+
+  <!-- Footer -->
+
+
+  <div class="my-5">
+
+    <!-- Footer -->
+    <footer class="bg-dark text-center text-white">
+      <!-- Grid container -->
+      <div class="container p-4">
+        <!-- Section: Social media -->
+        <section class="mb-4">
+          <!-- Facebook -->
+          <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/DailyProthomAlo"
+            role="button"><i class="fab fa-facebook-f"></i></a>
+
+          <!-- Twitter -->
+          <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/ProthomAlo" role="button"><i
+              class="fab fa-twitter"></i></a>
+
+          <!-- Google -->
+          <a class="btn btn-outline-light btn-floating m-1" href="https://www.youtube.com/c/ProthomAlo" role="button"><i
+              class="fab fa-google"></i></a>
+
+          <!-- Instagram -->
+          <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/prothomalo/"
+            role="button"><i class="fab fa-instagram"></i></a>
+        </section>
+        <!-- Section: Social media -->
+
+        <!-- Section: Form -->
+        <section class="">
+          <form action="">
+            <!--Grid row-->
+            <div class="row d-flex justify-content-center">
+              <!--Grid column-->
+              <div class="col-auto">
+                <p class="pt-2">
+                  <strong>আমাদের নিউজলেটার এর জন্য সাইন আপ করুন</strong>
+                </p>
+              </div>
+              <!--Grid column-->
+
+              <div class="col-md-5 col-12">
+                <!-- Email input -->
+                <div class="form-outline form-white mb-4">
+                  <input type="email" id="form5Example2" class="form-control" />
+                  <label class="form-label" for="form5Example2">ইমেইল</label>
+                </div>
+              </div>
+
+              <div class="col-auto">
+                <!-- Submit button -->
+                <button type="submit" class="btn btn-outline-light mb-4">
+                  অনুসরণ করুন
+
+                </button>
+              </div>
+            </div>
+            <!--Grid row-->
+          </form>
+        </section>
+        <!-- Section: Form -->
+
+        <!-- Section: logo -->
+        <section class="mb-4">
+          <p>
+            <img src="logo2.jpg" class="">
+          </p>
+        </section>
+
+        <!-- Section: Links -->
+        <section class="">
+          <!--Grid row-->
+          <div class="row">
+            <!--Grid column-1-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase"></h5>
+
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!" class="text-white text-decoration-none">গোলটেবিল</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white text-decoration-none">
+                    বিশেষ সংখ্যা</a>
+                </li>
+
+              </ul>
+            </div>
+
+
+            <!--Grid column-2-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase"></h5>
+
+              <ul class="list-unstyled mb-1">
+                <li>
+                  <a href="#!" class="text-white text-decoration-none">
+                    বন্ধুসভা</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white text-decoration-none">প্রথমা</a>
+                </li>
+              </ul>
+            </div>
+
+
+            <!--Grid column-3-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase"></h5>
+
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!" class="text-white text-decoration-none">কিশোর আলো</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white text-decoration-none">প্রথম আলো ট্রাস্ট</a>
+                </li>
+              </ul>
+            </div>
+
+
+            <!--Grid column-4-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase"></h5>
+
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!" class="text-white text-decoration-none">চিরন্তন ১৯৭১</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white text-decoration-none">মোবাইল ভ্যাস</a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </section>
+        <!-- Section: Links -->
+      </div>
+      <!-- Grid container -->
+
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        স্বত্ব © ২০২৩ প্রথম আলো
+        সম্পাদক ও প্রকাশক: মতিউর রহমান
+        <a class="text-white" href="https://mdbootstrap.com/">prothomalo.com</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+
+  </div>
+
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</body>
+
+
+
+</html>
